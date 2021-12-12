@@ -6,7 +6,7 @@ const CollapseNav = (props) => {
   const [collapsed, setCollapsed] = useState(true);
   return (
     <div className="CollapseNav">
-      <p className="nav-title">{props.name} </p>
+      <p className="nav-title f-overpass">{props.name} </p>
       <img className="collapsed" src={ArrowDown} alt=""></img>
       {!collapsed && (
         <div className="collapse-container">

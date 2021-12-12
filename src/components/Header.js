@@ -2,6 +2,7 @@ import React from "react";
 import logo from "../assets/images/logo.svg";
 import hamburger from "../assets/images/icon-hamburger.svg";
 import CollapseNav from "./CollapseNav";
+import "./Header.css";
 
 const Header = () => {
   const navLinks = [
@@ -20,7 +21,7 @@ const Header = () => {
           <CollapseNav name="Connect" collapse={navLinks[2]} />
         </div>
         <hr></hr>
-        <div className="nav-actions">
+        <div className="nav-actions f-overpass">
           <button className="btn nav-btn">Login</button>
           <button className="btn nav-btn">Sign Up</button>
         </div>
