@@ -1,6 +1,6 @@
 .Header {
   width: 100%;
-  padding: 3rem 0;
+  padding: 4rem 0;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -30,12 +30,18 @@ nav {
   border: none;
   margin-left: 2.5rem;
   color: white;
+  cursor: pointer;
 }
 .nav-actions button:last-child {
   padding: 0.8rem 2rem;
   color: hsl(356, 100%, 66%);
   background-color: white;
   border-radius: 1.5rem;
+  transition: 0.3s;
+}
+.nav-actions button:last-child:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  color: white;
 }
 .Header hr {
   display: none;
