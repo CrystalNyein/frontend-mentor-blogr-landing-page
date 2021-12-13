@@ -1,13 +1,6 @@
 .MainSection {
   padding: 0 10vw;
 }
-.section1 {
-  /* height: 120vh;
-  background-image: url("../assets/images/illustration-editor-desktop.svg");
-  background-repeat: no-repeat;
-  background-size: 55rem;
-  background-position: center right -15rem; */
-}
 .section-body {
   display: flex;
   position: relative;
@@ -24,4 +17,29 @@ h2 {
   max-width: 95%;
   top: -10rem;
   right: -25rem;
+}
+.section2 {
+  width: calc(100% + 20vw);
+  margin-left: -10vw;
+  background-image: linear-gradient(
+    to right,
+    hsl(237, 17%, 21%),
+    hsl(237, 23%, 32%)
+  );
+  height: 28rem;
+  border-radius: 0 8rem 0 8rem;
+}
+.section2 .section-body {
+  background-image: url("../assets//images//bg-pattern-circles.svg");
+  background-position: left -12rem bottom -8rem;
+  background-repeat: no-repeat;
+  justify-content: end;
+  /* height: 50vh; */
+  align-items: center;
+}
+.section2 .section-img {
+  width: 42%;
+  position: absolute;
+  top: -5rem;
+  left: 7vw;
 }

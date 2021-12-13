@@ -19,8 +19,10 @@ const MainSection = () => {
         </div>
       </section>
       <section className="section2">
-        <img className="deco-img" src={PhoneImg} alt="Phones" />
-        <FeatureText title={features[2].title} text={features[2].text} />
+        <div className="section-body">
+          <img className="section-img" src={PhoneImg} alt="Phones" />
+          <FeatureText title={features[2].title} text={features[2].text} />
+        </div>
       </section>
     </main>
   );

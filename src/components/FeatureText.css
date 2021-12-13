@@ -15,3 +15,19 @@
 .section1 p {
   width: 50%;
 }
+.section2 .FeatureText {
+  width: 50%;
+  padding-right: 10vw;
+  display: grid;
+  place-content: center;
+  height: 28rem;
+}
+.section2 h3 {
+  color: white;
+  font-size: 1.9rem;
+  margin-top: 0;
+}
+.section2 p {
+  margin: 0;
+  color: white;
+}
