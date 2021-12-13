@@ -6,13 +6,17 @@ const CollapseNav = (props) => {
   const [collapsed, setCollapsed] = useState(true);
   const titleRef = useRef(null);
   const collapseRef = useRef(null);
+  const imageRef = useRef(null);
   const toggleModal = (e) => {
     setCollapsed(!collapsed);
-    if (titleRef.current.classList.contains("collapse")) {
-      titleRef.current.classList.remove("collapse");
+    if (titleRef.current.classList.contains("underline")) {
+      titleRef.current.classList.remove("underline");
     } else {
-      titleRef.current.classList.add("collapse");
+      titleRef.current.classList.add("underline");
     }
+    if (imageRef.current.classList.contains("up-side-down")) {
+      imageRef.current.classList.remove("up-side-down");
+    } else imageRef.current.classList.add("up-side-down");
   };
   useEffect(() => {
     const handleClickOutside = (e) => {
@@ -31,7 +35,7 @@ const CollapseNav = (props) => {
       <p className="nav-title f-overpass" ref={titleRef} onClick={toggleModal}>
         {props.name}{" "}
       </p>
-      <img className="collapsed" src={ArrowDown} alt=""></img>
+      <img ref={imageRef} src={ArrowDown} alt=""></img>
       {!collapsed && (
         <div className="collapse-container" ref={collapseRef}>
           {props.collapse.map((c, i) => (

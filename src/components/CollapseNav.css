@@ -1,5 +1,7 @@
 .CollapseNav {
   position: relative;
+  display: flex;
+  align-items: center;
 }
 .nav-title {
   display: inline-block;
@@ -11,7 +13,7 @@
   transition: 0.3s;
 }
 .nav-title:hover,
-.nav-title.collapse {
+.underline {
   text-decoration: underline;
 }
 .collapse-container {
@@ -32,4 +34,10 @@
 }
 .collapse-container a:hover {
   font-weight: 600;
+}
+img {
+  transition: 0.3s;
+}
+.up-side-down {
+  transform: rotate(180deg);
 }
