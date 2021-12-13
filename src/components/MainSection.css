@@ -10,11 +10,11 @@
 h2 {
   text-align: center;
   color: hsl(208, 49%, 24%);
-  padding-top: 7rem;
+  padding: 8rem 0 4rem;
   font-size: 2.2rem;
 }
 .section1 .deco-img {
   position: absolute;
-  top: 3rem;
+  top: 2.5rem;
   right: -16rem;
 }
