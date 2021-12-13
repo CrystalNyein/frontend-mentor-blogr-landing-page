@@ -1,11 +1,16 @@
+.MainSection {
+  padding: 0 10vw;
+}
 .section1 {
-  position: relative;
-  min-height: 120vh;
   /* height: 120vh;
   background-image: url("../assets/images/illustration-editor-desktop.svg");
   background-repeat: no-repeat;
   background-size: 55rem;
   background-position: center right -15rem; */
+}
+.section-body {
+  display: flex;
+  position: relative;
 }
 h2 {
   text-align: center;
@@ -13,8 +18,10 @@ h2 {
   padding: 8rem 0 4rem;
   font-size: 2.2rem;
 }
-.section1 .deco-img {
+.section1 .section-img {
   position: absolute;
-  top: 2.5rem;
-  right: -16rem;
+  width: 55rem;
+  max-width: 95%;
+  top: -10rem;
+  right: -25rem;
 }
