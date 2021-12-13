@@ -3,6 +3,7 @@ import FeatureText from "./FeatureText";
 import "./MainSection.css";
 import EditorImg from "../assets/images/illustration-editor-desktop.svg";
 import PhoneImg from "../assets/images/illustration-phones.svg";
+import LaptopImg from "../assets/images/illustration-laptop-desktop.svg";
 import { features } from "../constants/Features";
 
 const MainSection = () => {
@@ -22,6 +23,16 @@ const MainSection = () => {
         <div className="section-body">
           <img className="section-img" src={PhoneImg} alt="Phones" />
           <FeatureText title={features[2].title} text={features[2].text} />
+        </div>
+      </section>
+
+      <section className="section3">
+        <div className="section-body">
+          <img className="section-img" src={LaptopImg} alt="Laptop"></img>
+          <div className="section-text">
+            <FeatureText title={features[3].title} text={features[3].text} />
+            <FeatureText title={features[4].title} text={features[4].text} />
+          </div>
         </div>
       </section>
     </main>

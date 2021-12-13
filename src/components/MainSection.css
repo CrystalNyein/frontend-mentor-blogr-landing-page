@@ -21,6 +21,7 @@ h2 {
 .section2 {
   width: calc(100% + 20vw);
   margin-left: -10vw;
+  margin-top: 10rem;
   background-image: linear-gradient(
     to right,
     hsl(237, 17%, 21%),
@@ -42,4 +43,20 @@ h2 {
   position: absolute;
   top: -5rem;
   left: 7vw;
+}
+.section3 {
+  margin-top: 10rem;
+}
+.section3 .section-body {
+  justify-content: end;
+}
+.section3 .section-img {
+  position: absolute;
+  width: 55rem;
+  max-width: 95%;
+  top: -5rem;
+  left: -25rem;
+}
+.section3 .section-text {
+  width: 50%;
 }
