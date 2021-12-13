@@ -32,7 +32,7 @@ const CollapseNav = (props) => {
   });
   return (
     <div className="CollapseNav">
-      <p className="nav-title f-overpass" ref={titleRef} onClick={toggleModal}>
+      <p className="nav-title f-ubuntu" ref={titleRef} onClick={toggleModal}>
         {props.name}{" "}
       </p>
       <img ref={imageRef} src={ArrowDown} alt=""></img>

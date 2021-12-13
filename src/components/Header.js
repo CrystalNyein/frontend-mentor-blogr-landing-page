@@ -21,9 +21,9 @@ const Header = () => {
           <CollapseNav name="Connect" collapse={navLinks[2]} />
         </div>
         <hr></hr>
-        <div className="nav-actions f-overpass">
-          <button className="btn nav-btn">Login</button>
-          <button className="btn nav-btn">Sign Up</button>
+        <div className="nav-actions">
+          <button className="btn nav-btn f-ubuntu">Login</button>
+          <button className="btn primary-btn f-ubuntu">Sign Up</button>
         </div>
       </nav>
     </header>

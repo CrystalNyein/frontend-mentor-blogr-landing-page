@@ -23,24 +23,29 @@ nav {
   display: flex;
   gap: 2.5rem;
 }
-.nav-actions button {
+.nav-actions .nav-btn {
+  background: transparent;
+  color: white;
   font-weight: 600;
   font-size: 1rem;
-  background: transparent;
   border: none;
-  margin-left: 2.5rem;
-  color: white;
+  margin-right: 2.5rem;
   cursor: pointer;
 }
-.nav-actions button:last-child {
-  padding: 0.8rem 2rem;
+.primary-btn {
+  font-weight: 600;
+  font-size: 1rem;
+  border: 1px solid transparent;
+  cursor: pointer;
+  width: 8.5rem;
+  height: 3rem;
   color: hsl(356, 100%, 66%);
   background-color: white;
   border-radius: 1.5rem;
   transition: 0.3s;
 }
-.nav-actions button:last-child:hover {
-  background-color: rgba(255, 255, 255, 0.3);
+.primary-btn:hover {
+  background-color: hsl(355, 100%, 74%);
   color: white;
 }
 .Header hr {
