@@ -36,7 +36,7 @@ const Header = () => {
     };
   });
   return (
-    <header className="Header">
+    <div className="Header">
       <img id="logo" src={logo} alt="Blogr Logo" />
       <nav>
         <img
@@ -60,7 +60,7 @@ const Header = () => {
           </div>
         </div>
       </nav>
-    </header>
+    </div>
   );
 };
 
