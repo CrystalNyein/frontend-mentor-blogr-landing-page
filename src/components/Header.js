@@ -37,7 +37,7 @@ const Header = () => {
   });
   return (
     <div className="Header">
-      <img id="logo" src={logo} alt="Blogr Logo" />
+      <img id="logo" src={logo} alt="Blogr Logo" role="img" />
       <nav>
         <img
           id="nav-menu"
