@@ -9,7 +9,6 @@ import LaptopImgMb from "../assets/images/illustration-laptop-mobile.svg";
 import { features } from "../constants/Features";
 
 const MainSection = () => {
-  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
   return (
     <main className="MainSection">
       <section className="section1">
@@ -17,7 +16,7 @@ const MainSection = () => {
         <div className="section-body">
           <img
             className="section-img"
-            src={windowWidth < 650 ? EditorImgMb : EditorImgDsk}
+            src={window.innerWidth < 650 ? EditorImgMb : EditorImgDsk}
             alt="Editor"
           ></img>
           <div className="section-text">
@@ -37,7 +36,7 @@ const MainSection = () => {
         <div className="section-body">
           <img
             className="section-img"
-            src={windowWidth < 650 ? LaptopImgMb : LaptopImgDsk}
+            src={window.innerWidth < 650 ? LaptopImgMb : LaptopImgDsk}
             alt="Laptop"
           ></img>
           <div className="section-text">
