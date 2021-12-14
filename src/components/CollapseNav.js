@@ -10,10 +10,14 @@ const CollapseNav = (props) => {
   const imageRef = useRef(null);
   const toggleModal = (e) => {
     setCollapsed(!collapsed);
-    if (titleRef.current.classList.contains("underline")) {
+    if (window.innerWidth > 950)
+      if (titleRef.current.classList.contains("underline")) {
+        titleRef.current.classList.remove("underline");
+      } else {
+        titleRef.current.classList.add("underline");
+      }
+    else {
       titleRef.current.classList.remove("underline");
-    } else {
-      titleRef.current.classList.add("underline");
     }
     if (imageRef.current.classList.contains("up-side-down")) {
       imageRef.current.classList.remove("up-side-down");
@@ -26,7 +30,8 @@ const CollapseNav = (props) => {
           toggleModal();
         }
     };
-    if (!collapsed) document.addEventListener("mousedown", handleClickOutside);
+    if (!collapsed && window.innerWidth > 950)
+      document.addEventListener("mousedown", handleClickOutside);
     return () => {
       document.removeEventListener("mousedown", handleClickOutside);
     };
@@ -37,7 +42,11 @@ const CollapseNav = (props) => {
         <p className="nav-title f-ubuntu" ref={titleRef} onClick={toggleModal}>
           {props.name}{" "}
         </p>
-        <img ref={imageRef} src={ArrowDownColor} alt=""></img>
+        <img
+          ref={imageRef}
+          src={window.innerWidth < 950 ? ArrowDownColor : ArrowDown}
+          alt=""
+        ></img>
       </div>
       {!collapsed && (
         <div className="collapse-container" ref={collapseRef}>
