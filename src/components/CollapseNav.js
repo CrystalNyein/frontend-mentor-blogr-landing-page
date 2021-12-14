@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import ArrowDown from "../assets/images/icon-arrow-light.svg";
+import ArrowDownColor from "../assets/images/icon-arrow-dark.svg";
 import "./CollapseNav.css";
 
 const CollapseNav = (props) => {
@@ -32,10 +33,12 @@ const CollapseNav = (props) => {
   });
   return (
     <div className="CollapseNav">
-      <p className="nav-title f-ubuntu" ref={titleRef} onClick={toggleModal}>
-        {props.name}{" "}
-      </p>
-      <img ref={imageRef} src={ArrowDown} alt=""></img>
+      <div className="nav-title-group">
+        <p className="nav-title f-ubuntu" ref={titleRef} onClick={toggleModal}>
+          {props.name}{" "}
+        </p>
+        <img ref={imageRef} src={ArrowDownColor} alt=""></img>
+      </div>
       {!collapsed && (
         <div className="collapse-container" ref={collapseRef}>
           {props.collapse.map((c, i) => (

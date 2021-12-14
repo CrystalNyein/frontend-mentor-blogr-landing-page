@@ -13,6 +13,9 @@
   display: none;
 }
 nav {
+  width: 100%;
+}
+.nav-link-container {
   flex-grow: 1;
   display: flex;
   flex-direction: row;
@@ -27,14 +30,14 @@ nav {
   background: transparent;
   color: white;
   font-weight: 600;
-  font-size: 1rem;
+  font-size: 1.1rem;
   border: none;
   margin-right: 2.5rem;
   cursor: pointer;
 }
 .primary-btn {
   font-weight: 600;
-  font-size: 1rem;
+  font-size: 1.1rem;
   border: 1px solid transparent;
   cursor: pointer;
   width: 8.5rem;
@@ -50,4 +53,70 @@ nav {
 }
 .Header hr {
   display: none;
+}
+@media only screen and (max-width: 950px) {
+  .Header {
+    justify-content: space-between;
+  }
+  nav {
+    width: unset;
+  }
+  #nav-menu {
+    display: block;
+  }
+  .nav-link-container {
+    position: absolute;
+    top: 10rem;
+    right: 5vw;
+    background-color: white;
+    display: unset;
+    width: 19rem;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    z-index: 3;
+    opacity: 0;
+    pointer-events: none;
+  }
+  .nav-link-container.active {
+    pointer-events: all;
+    opacity: 1;
+  }
+  .nav-links {
+    display: unset;
+  }
+
+  .nav-actions .nav-btn {
+    color: hsl(207, 13%, 34%);
+  }
+
+  .Header hr {
+    display: block;
+    margin: 1.5rem 0;
+    border: transparent;
+    height: 1px;
+    background-color: hsl(240, 4%, 90%);
+  }
+  .nav-actions > * {
+    display: block;
+  }
+  .nav-actions .nav-btn {
+    width: 100%;
+    padding: 0.5rem 0 1.5rem;
+  }
+  .nav-actions .primary-btn {
+    margin: 0 auto;
+    color: white;
+    background-image: linear-gradient(
+      to right,
+      hsl(13, 100%, 72%),
+      hsl(353, 100%, 62%)
+    );
+  }
+  .nav-actions .primary-btn:hover {
+    background-image: linear-gradient(
+      to left,
+      hsl(13, 100%, 72%),
+      hsl(353, 100%, 62%)
+    );
+  }
 }

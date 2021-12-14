@@ -8,7 +8,7 @@
   margin-right: 0.5rem;
   color: white;
   font-weight: 600;
-  font-size: 1rem;
+  font-size: 1.1rem;
   cursor: pointer;
   transition: 0.3s;
 }
@@ -24,6 +24,7 @@
   min-width: 12rem;
   border-radius: 0.3rem;
   padding: 2rem;
+  z-index: 3;
 }
 .collapse-container a {
   display: block;
@@ -40,4 +41,38 @@ img {
 }
 .up-side-down {
   transform: rotate(180deg);
+}
+@media only screen and (max-width: 950px) {
+  .CollapseNav {
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .nav-title-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .nav-title {
+    color: hsl(207, 13%, 34%);
+    display: block;
+    line-height: 2.5rem;
+    text-align: center;
+    margin: 0.5rem 0.5rem 0.5rem 0;
+  }
+  .collapse-container {
+    position: unset;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    background-color: hsl(240, 4%, 90%);
+  }
+  .collapse-container a {
+    color: hsl(207, 13%, 34%);
+    font-weight: 500;
+  }
+  .collapse-container a:hover {
+    font-weight: 700;
+  }
 }
