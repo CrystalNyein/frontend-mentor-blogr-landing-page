@@ -20,7 +20,7 @@
   padding-right: 10vw;
   display: grid;
   place-content: center;
-  height: 28rem;
+  min-height: 28rem;
 }
 .section2 h3 {
   color: white;
@@ -30,6 +30,20 @@
 .section2 p {
   margin: 0;
   color: white;
+}
+@media only screen and (max-width: 649px) {
+  .section1 h3,
+  .section1 p {
+    text-align: center;
+    width: 100%;
+  }
+  .section2 .FeatureText {
+    width: 100%;
+    text-align: center;
+    padding-top: 22rem;
+    padding-left: 5vw;
+    padding-bottom: 5rem;
+  }
 }
 @media only screen and (max-width: 950px) {
   .section2 .FeatureText {

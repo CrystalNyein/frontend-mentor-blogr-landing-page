@@ -27,11 +27,26 @@
   line-height: 1.9rem;
   font-size: 1rem;
 }
+@media only screen and (max-width: 649px) {
+  .FooterSection > div {
+    width: 100%;
+    text-align: center;
+    margin: 2rem 0;
+  }
+  .footer-links .cta {
+    width: 100%;
+  }
+  .footer-links:last-child {
+    padding: 0;
+  }
+}
 @media only screen and (max-width: 950px) {
   .FooterSection {
     padding: 3rem 5vw;
     margin-top: 0;
   }
+}
+@media only screen and (min-width: 650px) and (max-width: 950px) {
   .footer-links:last-child {
     padding-right: 5vw;
   }

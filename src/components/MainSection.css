@@ -27,7 +27,7 @@ h2 {
     hsl(237, 17%, 21%),
     hsl(237, 23%, 32%)
   );
-  height: 28rem;
+  min-height: 28rem;
   border-radius: 0 8rem 0 8rem;
 }
 .section2 .section-body {
@@ -60,6 +60,41 @@ h2 {
 .section3 .section-text {
   width: 50%;
 }
+@media only screen and (max-width: 649px) {
+  .section1 .section-body {
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+  }
+  .section1 .section-img {
+    position: unset;
+  }
+  .section2 {
+    margin-top: 10rem;
+  }
+  .section2 .section-body {
+    background-position: top -12rem center;
+    background-size: cover;
+  }
+  .section2 .section-img {
+    max-width: 30rem;
+    width: 100vw;
+    left: 50vw;
+    top: -10rem;
+    transform: translateX(-50%);
+  }
+  .section3 .section-body {
+    flex-direction: column;
+  }
+  .section3 .section-img {
+    margin: 0 auto;
+    position: unset;
+  }
+  .section3 .section-text {
+    width: 100%;
+    text-align: center;
+  }
+}
 @media only screen and (max-width: 950px) {
   .MainSection {
     padding: 0 5vw;
@@ -69,6 +104,8 @@ h2 {
     width: calc(100% + 10vw);
     margin-left: -5vw;
   }
+}
+@media only screen and (min-width: 650px) and (max-width: 950px) {
   .section2,
   .section3 {
     margin-top: 0;
