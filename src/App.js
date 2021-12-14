@@ -1,4 +1,5 @@
 import "./App.css";
+import FooterSection from "./components/FooterSection";
 import HeroSection from "./components/HeroSection";
 import MainSection from "./components/MainSection";
 
@@ -7,6 +8,7 @@ const App = () => {
     <div className="App">
       <HeroSection />
       <MainSection />
+      <FooterSection />
     </div>
   );
 };
