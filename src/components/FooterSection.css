@@ -1,0 +1,29 @@
+.FooterSection {
+  margin-top: 8rem;
+  background-color: hsl(240, 10%, 16%);
+  border-radius: 0 8rem 0 0;
+  padding: 3rem 10vw;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.FooterSection * {
+  font-family: "Ubuntu", sans-serif;
+}
+.footer-links:last-child {
+  padding-right: 12rem;
+}
+.footer-links h4 {
+  color: white;
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+.footer-links .cta {
+  background-color: transparent;
+  border: transparent;
+  color: hsl(240, 2%, 79%);
+  display: block;
+  line-height: 1.9rem;
+  font-size: 1rem;
+}
