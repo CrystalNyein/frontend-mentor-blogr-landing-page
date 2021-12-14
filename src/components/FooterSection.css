@@ -1,5 +1,5 @@
 .FooterSection {
-  margin-top: 8rem;
+  margin-top: 5rem;
   background-color: hsl(240, 10%, 16%);
   border-radius: 0 8rem 0 0;
   padding: 3rem 10vw;
@@ -26,4 +26,13 @@
   display: block;
   line-height: 1.9rem;
   font-size: 1rem;
+}
+@media only screen and (max-width: 950px) {
+  .FooterSection {
+    padding: 3rem 5vw;
+    margin-top: 0;
+  }
+  .footer-links:last-child {
+    padding-right: 5vw;
+  }
 }

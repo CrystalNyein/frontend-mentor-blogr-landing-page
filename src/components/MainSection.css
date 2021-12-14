@@ -21,7 +21,7 @@ h2 {
 .section2 {
   width: calc(100% + 20vw);
   margin-left: -10vw;
-  margin-top: 10rem;
+  margin-top: 5rem;
   background-image: linear-gradient(
     to right,
     hsl(237, 17%, 21%),
@@ -45,7 +45,7 @@ h2 {
   left: 7vw;
 }
 .section3 {
-  margin-top: 10rem;
+  margin-top: 5rem;
 }
 .section3 .section-body {
   justify-content: end;
@@ -59,4 +59,24 @@ h2 {
 }
 .section3 .section-text {
   width: 50%;
+}
+@media only screen and (max-width: 950px) {
+  .MainSection {
+    padding: 0 5vw;
+  }
+
+  .section2 {
+    width: calc(100% + 10vw);
+    margin-left: -5vw;
+  }
+  .section2,
+  .section3 {
+    margin-top: 0;
+  }
+  .section2 .section-img {
+    left: 2vw;
+  }
+  .section-img {
+    top: 0 !important;
+  }
 }

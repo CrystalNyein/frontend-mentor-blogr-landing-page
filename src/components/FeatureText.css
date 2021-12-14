@@ -31,3 +31,8 @@
   margin: 0;
   color: white;
 }
+@media only screen and (max-width: 950px) {
+  .section2 .FeatureText {
+    padding-right: 5vw;
+  }
+}
