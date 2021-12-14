@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/frontend-mentor-blogr-landing-page/static/css/main.1bed3464.chunk.css",
+    "main.js": "/frontend-mentor-blogr-landing-page/static/js/main.00d7f042.chunk.js",
+    "main.js.map": "/frontend-mentor-blogr-landing-page/static/js/main.00d7f042.chunk.js.map",
+    "runtime-main.js": "/frontend-mentor-blogr-landing-page/static/js/runtime-main.936ec084.js",
+    "runtime-main.js.map": "/frontend-mentor-blogr-landing-page/static/js/runtime-main.936ec084.js.map",
+    "static/js/2.052ef75e.chunk.js": "/frontend-mentor-blogr-landing-page/static/js/2.052ef75e.chunk.js",
+    "static/js/2.052ef75e.chunk.js.map": "/frontend-mentor-blogr-landing-page/static/js/2.052ef75e.chunk.js.map",
+    "static/js/3.b8db1412.chunk.js": "/frontend-mentor-blogr-landing-page/static/js/3.b8db1412.chunk.js",
+    "static/js/3.b8db1412.chunk.js.map": "/frontend-mentor-blogr-landing-page/static/js/3.b8db1412.chunk.js.map",
+    "index.html": "/frontend-mentor-blogr-landing-page/index.html",
+    "static/css/main.1bed3464.chunk.css.map": "/frontend-mentor-blogr-landing-page/static/css/main.1bed3464.chunk.css.map",
+    "static/js/2.052ef75e.chunk.js.LICENSE.txt": "/frontend-mentor-blogr-landing-page/static/js/2.052ef75e.chunk.js.LICENSE.txt",
+    "static/media/MainSection.css": "/frontend-mentor-blogr-landing-page/static/media/bg-pattern-circles.bae804b8.svg",
+    "static/media/HeroSection.css": "/frontend-mentor-blogr-landing-page/static/media/bg-pattern-intro-desktop.bf6b3e1b.svg",
+    "static/media/icon-arrow-dark.5215f8d9.svg": "/frontend-mentor-blogr-landing-page/static/media/icon-arrow-dark.5215f8d9.svg",
+    "static/media/icon-arrow-light.9ba0f38e.svg": "/frontend-mentor-blogr-landing-page/static/media/icon-arrow-light.9ba0f38e.svg",
+    "static/media/icon-close.c6580312.svg": "/frontend-mentor-blogr-landing-page/static/media/icon-close.c6580312.svg",
+    "static/media/icon-hamburger.68867946.svg": "/frontend-mentor-blogr-landing-page/static/media/icon-hamburger.68867946.svg",
+    "static/media/illustration-editor-desktop.c6c8050a.svg": "/frontend-mentor-blogr-landing-page/static/media/illustration-editor-desktop.c6c8050a.svg",
+    "static/media/illustration-editor-mobile.b9c7941a.svg": "/frontend-mentor-blogr-landing-page/static/media/illustration-editor-mobile.b9c7941a.svg",
+    "static/media/illustration-laptop-desktop.799209c2.svg": "/frontend-mentor-blogr-landing-page/static/media/illustration-laptop-desktop.799209c2.svg",
+    "static/media/illustration-laptop-mobile.fe1ec0f0.svg": "/frontend-mentor-blogr-landing-page/static/media/illustration-laptop-mobile.fe1ec0f0.svg",
+    "static/media/illustration-phones.fd23559f.svg": "/frontend-mentor-blogr-landing-page/static/media/illustration-phones.fd23559f.svg",
+    "static/media/logo.1591bc20.svg": "/frontend-mentor-blogr-landing-page/static/media/logo.1591bc20.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.936ec084.js",
+    "static/js/2.052ef75e.chunk.js",
+    "static/css/main.1bed3464.chunk.css",
+    "static/js/main.00d7f042.chunk.js"
+  ]
+}
